@@ -165,6 +165,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    justify-content: center;
+  }
+
   .main {
     display: flex;
     flex-direction: column;
