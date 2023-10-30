@@ -180,6 +180,13 @@ footer {
     width: 90%;
   }
 
+  .description {
+    font-size: calc(1rem + 0.5vw);
+    overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+    word-wrap: break-word; /* Breaks long words to prevent overflow */
+    line-height: calc(1.25rem + 0.5vw);
+  }
+
   .right {
     width: 100%; /* Takes full width on mobile screens */
   }
