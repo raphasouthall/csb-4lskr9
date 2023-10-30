@@ -199,7 +199,7 @@ footer {
 
   .right {
     width: 100%; /* Takes full width on mobile screens */
-    height: 80vh;
+    height: 90vh;
   }
 
   .top-right {
@@ -212,12 +212,9 @@ footer {
   }
 
   .history {
-    width: 100%;
+    /* width: 100%; */
     font-size: calc(1.2rem + 0.5vw);
     line-height: calc(1.8rem + 0.5vw);
-    overflow-wrap: break-word; /* Breaks long words to prevent overflow */
-    word-wrap: break-word; /* Breaks long words to prevent overflow */
-    text-align: justify;
     padding: 1.5rem;
   }
 
