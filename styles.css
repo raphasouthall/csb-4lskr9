@@ -8,7 +8,7 @@ body {
   src: url("./DidotLTPro-Roman.woff2") format("woff2"),
     url("./DidotLTPro-Roman.woff") format("woff"),
     url("./DidotLTPro-Roman.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -194,12 +194,12 @@ footer {
     font-size: calc(1.2rem + 0.5vw);
     overflow-wrap: break-word; /* Breaks long words to prevent overflow */
     word-wrap: break-word; /* Breaks long words to prevent overflow */
-    line-height: calc(1.6rem + 0.5vw);
+    line-height: calc(1.8rem + 0.5vw);
   }
 
   .right {
     width: 100%; /* Takes full width on mobile screens */
-    height: fit-content;
+    height: 80vh;
   }
 
   .top-right {
@@ -207,14 +207,13 @@ footer {
   }
 
   .bottom-right {
-    height: fit-content;
     font-size: calc(1rem + 0.5vw);
-    line-height: calc(1.6rem + 0.5vw);
+    line-height: calc(1.8rem + 0.5vw);
   }
 
   .history {
     font-size: calc(1.2rem + 0.5vw);
-    line-height: calc(1.6rem + 0.5vw);
+    line-height: calc(1.8rem + 0.5vw);
     overflow-wrap: break-word; /* Breaks long words to prevent overflow */
     word-wrap: break-word; /* Breaks long words to prevent overflow */
     text-align: justify;
@@ -226,7 +225,7 @@ footer {
     flex-direction: column;
     text-align: center;
     font-size: calc(1.2rem + 0.5vw);
-    line-height: calc(1.6rem + 0.5vw);
+    line-height: calc(1.8rem + 0.5vw);
     overflow-wrap: break-word; /* Breaks long words to prevent overflow */
     word-wrap: break-word; /* Breaks long words to prevent overflow */
     background-color: #e5e5e5;
