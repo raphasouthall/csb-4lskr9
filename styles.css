@@ -1,0 +1,188 @@
+body {
+  margin: 1rem;
+  font-family: "Linotype Didot", serif;
+}
+
+@font-face {
+  font-family: "Linotype Didot";
+  src: url("./DidotLTPro-Roman.woff2") format("woff2"),
+    url("./DidotLTPro-Roman.woff") format("woff"),
+    url("./DidotLTPro-Roman.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  background-color: white;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.material-symbols-rounded {
+  font-size: 32px !important;
+  color: #19a600; /* Sets the color of the icon to green */
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: fit-content;
+  background-color: white;
+}
+
+.left {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: column; /* Arranges child divs vertically */
+  background-color: #f2f2f2;
+  height: fill;
+  padding: 2rem;
+  /* Other styles */
+}
+
+.name {
+  font-size: calc(2.5rem + 0.5vw);
+}
+
+.title,
+.expertise {
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+.description {
+  font-size: calc(1rem + 0.5vw);
+  overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+  word-wrap: break-word; /* Breaks long words to prevent overflow */
+  line-height: calc(3.5rem + 0.5vw);
+}
+
+.bottom-right {
+  font-size: calc(1rem + 0.5vw);
+  line-height: calc(2.5rem + 0.5vw);
+}
+
+.right {
+  grid-column: 3/3;
+  display: grid;
+  grid-template-rows: repeat(3, 0.5fr);
+  /* width: 40%; */
+  height: auto;
+  background-color: #e5e5e5; /* Adjust as needed */
+}
+
+.image-container {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  display: flex;
+  background-color: white;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.bottom-right {
+  grid-row: span 2;
+  background-color: #2a2f49;
+}
+
+.text-container {
+  padding: 1.5rem;
+}
+
+.image {
+  height: 100%;
+}
+
+.three-cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.three-cols > div {
+  flex: 1;
+}
+
+.history {
+  font-size: calc(1rem + 0.5vw);
+  line-height: calc(2.5rem + 0.5vw);
+  overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+  word-wrap: break-word; /* Breaks long words to prevent overflow */
+  text-align: justify;
+  padding: 1.5rem;
+}
+
+.quotations {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: calc(1rem + 0.5vw);
+  overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+  word-wrap: break-word; /* Breaks long words to prevent overflow */
+  background-color: #e5e5e5;
+  padding: 1.5rem;
+}
+
+.author {
+  font-style: italic;
+  color: rgb(63, 63, 63);
+}
+
+.green-div {
+  height: 1.5rem;
+  background-color: green;
+}
+
+.meyler {
+  margin-left: 1.5rem;
+}
+.meyler-logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 2.5rem;
+  gap: 1rem;
+  background-color: #2a2f49;
+  font-size: calc(1rem + 0.5vw);
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 90%;
+  }
+
+  .right {
+    width: 100%; /* Takes full width on mobile screens */
+  }
+
+  .top-right {
+    width: 100%;
+  }
+
+  .bottom-right {
+    width: 100%;
+  }
+}
