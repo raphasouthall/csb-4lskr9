@@ -177,21 +177,29 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: fit-content;
   }
 
   .left {
-    width: 90%;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .title,
+  .expertise {
+    font-size: calc(1.5rem + 0.5vw);
   }
 
   .description {
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(1.2rem + 0.5vw);
     overflow-wrap: break-word; /* Breaks long words to prevent overflow */
     word-wrap: break-word; /* Breaks long words to prevent overflow */
-    line-height: calc(1.25rem + 0.5vw);
+    line-height: calc(1.6rem + 0.5vw);
   }
 
   .right {
     width: 100%; /* Takes full width on mobile screens */
+    height: fit-content;
   }
 
   .top-right {
@@ -199,6 +207,29 @@ footer {
   }
 
   .bottom-right {
-    width: 100%;
+    height: fit-content;
+    font-size: calc(1rem + 0.5vw);
+    line-height: calc(1.6rem + 0.5vw);
+  }
+
+  .history {
+    font-size: calc(1.2rem + 0.5vw);
+    line-height: calc(1.6rem + 0.5vw);
+    overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+    word-wrap: break-word; /* Breaks long words to prevent overflow */
+    text-align: justify;
+    padding: 1.5rem;
+  }
+
+  .quotations {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: calc(1.2rem + 0.5vw);
+    line-height: calc(1.6rem + 0.5vw);
+    overflow-wrap: break-word; /* Breaks long words to prevent overflow */
+    word-wrap: break-word; /* Breaks long words to prevent overflow */
+    background-color: #e5e5e5;
+    padding: 1.5rem;
   }
 }
