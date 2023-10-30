@@ -170,7 +170,7 @@ footer {
 @media only screen and (max-width: 768px) {
   body {
     justify-content: center;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   .main {
