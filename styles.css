@@ -128,7 +128,6 @@ body {
   line-height: calc(2.5rem + 0.5vw);
   overflow-wrap: break-word; /* Breaks long words to prevent overflow */
   word-wrap: break-word; /* Breaks long words to prevent overflow */
-  text-align: justify;
   padding: 1.5rem;
 }
 
