@@ -212,6 +212,7 @@ footer {
   }
 
   .history {
+    width: 100%;
     font-size: calc(1.2rem + 0.5vw);
     line-height: calc(1.8rem + 0.5vw);
     overflow-wrap: break-word; /* Breaks long words to prevent overflow */
