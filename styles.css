@@ -54,7 +54,6 @@ body {
 
 .left {
   grid-column: 1/3;
-  display: flex;
   flex-direction: column; /* Arranges child divs vertically */
   background-color: #f2f2f2;
   height: fill;
@@ -67,8 +66,13 @@ body {
   font-size: calc(2.5rem + 0.5vw);
 }
 
+.title {
+  align-self: left;
+}
+
 .title,
 .expertise {
+  text-align: left;
   font-size: calc(1.5rem + 0.5vw);
 }
 
