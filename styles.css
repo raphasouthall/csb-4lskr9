@@ -114,6 +114,16 @@ body {
   padding: 1.5rem;
 }
 
+.images {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.emcc {
+  height: 6rem;
+}
+
 .image {
   height: 100%;
 }
