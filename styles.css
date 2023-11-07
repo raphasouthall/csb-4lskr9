@@ -115,10 +115,10 @@ body {
 }
 
 .logos_meyler_emcc {
-  display: flex;
+  display: flex !important;
   flex-direction: row;
-  align-items: center;
-  gap: 2rem;
+  align-items: center !important;
+  gap: 2rem !important;
 }
 
 .emcc {
